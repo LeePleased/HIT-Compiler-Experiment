@@ -1,0 +1,19 @@
+{
+ "terminal": [
+  "*",
+  "INT"
+ ],
+ "non-terminal": [
+  "S",
+  "T",
+  "F",
+  "T'"
+ ],
+ "production": [
+  "S -->> T",
+  "T -->> F ONTOLOGY-1 T' ONTOLOGY-2",
+  "T' -->> * F ONTOLOGY-3 T' ONTOLOGY-4",
+  "T' -->> ### ONTOLOGY-5",
+  "F -->> INT ONTOLOGY-6"
+ ]
+}
