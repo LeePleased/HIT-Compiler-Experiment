@@ -1,0 +1,13 @@
+SS -> Z ; E
+E -> if A then B else B
+A -> i == i
+A -> i or i
+B -> F i = D
+F -> int
+B -> i = D
+D -> H + H
+H -> i
+Z -> do G while I
+G -> i = C
+C -> i * i
+I -> i != num
